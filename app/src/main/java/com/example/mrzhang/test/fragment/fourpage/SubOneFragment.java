@@ -13,6 +13,7 @@ import com.example.mrzhang.test.R;
 import com.example.mrzhang.test.activity.one_one.MyCardViewActivity;
 import com.example.mrzhang.test.activity.one_one.MyNotificationActivity;
 import com.example.mrzhang.test.activity.one_one.MyRvActivity;
+import com.example.mrzhang.test.activity.one_one.ScrollingActivity;
 import com.example.mrzhang.test.fragment.BaseFragment;
 
 /**
@@ -103,6 +104,7 @@ public class SubOneFragment extends BaseFragment implements View.OnClickListener
                 startActivity(new Intent(getContext(), MyNotificationActivity.class));
                 break;
             case R.id.tv4:
+                startActivity(new Intent(getContext(), ScrollingActivity.class));
                 break;
             case R.id.tv5:
                 break;
